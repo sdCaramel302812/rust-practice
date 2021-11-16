@@ -11,6 +11,7 @@ fn main() {
     //control_flow::condition();
     ownership::ownership();
 
+
     // const is determined at compilation, so it can be access at any time within the scope
     //println!("{}", MY_CONST);
     //const MY_CONST: i32 = 1;
