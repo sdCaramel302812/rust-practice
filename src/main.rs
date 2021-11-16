@@ -3,14 +3,15 @@ mod data_type;
 mod function;
 mod control_flow;
 mod ownership;
+mod rust_struct;
 
 fn main() {
     //guess_game::guess();
     //data_type::learn_data_type();
     //function::rust_function();
     //control_flow::condition();
-    ownership::ownership();
-
+    //ownership::ownership();
+    rust_struct::rust_struct();
 
     // const is determined at compilation, so it can be access at any time within the scope
     //println!("{}", MY_CONST);
