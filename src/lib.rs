@@ -40,6 +40,8 @@ use std::{cmp::Ordering, io};       // combine the path
 
 use std::collections::*;            // bring all into the scope
 
+// pub use std::io;                 // external code could use this too
+
 fn eat() {
     //let breakfast = lib_tutorial::Breakfast {
     //    toast: String::from("wheat"),
