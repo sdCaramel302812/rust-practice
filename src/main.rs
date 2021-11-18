@@ -7,6 +7,7 @@ mod rust_struct;
 mod rust_enum;
 mod lib;
 use restaurant::front_of_house;     // need to add config in Cargo.toml
+mod collection;
 
 fn main() {
     //guess_game::guess();
@@ -16,7 +17,8 @@ fn main() {
     //ownership::ownership();
     //rust_struct::rust_struct();
     //rust_enum::rust_enum();
-    lib::lib_tutorial::tutorial();
+    //lib::lib_tutorial::tutorial();
+    collection::collect();
 
     // const is determined at compilation, so it can be access at any time within the scope
     //println!("{}", MY_CONST);
