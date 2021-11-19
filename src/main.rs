@@ -9,6 +9,8 @@ mod lib;
 use restaurant::front_of_house;     // need to add config in Cargo.toml
 mod collection;
 mod error_handling;
+mod generics;
+mod lifetime;
 
 fn main() {
     //guess_game::guess();
@@ -20,7 +22,9 @@ fn main() {
     //rust_enum::rust_enum();
     //lib::lib_tutorial::tutorial();
     //collection::collect();
-    error_handling::error_handling();
+    //error_handling::error_handling();
+    generics::generics();
+    lifetime::lifetime();
 
     // const is determined at compilation, so it can be access at any time within the scope
     //println!("{}", MY_CONST);
