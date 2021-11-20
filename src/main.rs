@@ -1,16 +1,16 @@
-mod guess_game;
-mod data_type;
-mod function;
-mod control_flow;
-mod ownership;
-mod rust_struct;
-mod rust_enum;
-mod lib;
-use restaurant::front_of_house;     // need to add config in Cargo.toml
-mod collection;
-mod error_handling;
-mod generics;
-mod lifetime;
+//mod guess_game;
+//mod data_type;
+//mod function;
+//mod control_flow;
+//mod ownership;
+//mod rust_struct;
+//mod rust_enum;
+//mod lib;
+//use restaurant::front_of_house;     // need to add config in Cargo.toml
+//mod collection;
+//mod error_handling;
+//mod generics;
+//mod lifetime;
 
 fn main() {
     //guess_game::guess();
@@ -23,8 +23,8 @@ fn main() {
     //lib::lib_tutorial::tutorial();
     //collection::collect();
     //error_handling::error_handling();
-    generics::generics();
-    lifetime::lifetime();
+    //generics::generics();
+    //lifetime::lifetime();
 
     // const is determined at compilation, so it can be access at any time within the scope
     //println!("{}", MY_CONST);
