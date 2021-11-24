@@ -11,6 +11,8 @@
 //mod error_handling;
 //mod generics;
 //mod lifetime;
+mod grep;
+use grep::grep_main;
 
 fn main() {
     //guess_game::guess();
@@ -25,6 +27,7 @@ fn main() {
     //error_handling::error_handling();
     //generics::generics();
     //lifetime::lifetime();
+    grep::grep_main();
 
     // const is determined at compilation, so it can be access at any time within the scope
     //println!("{}", MY_CONST);
